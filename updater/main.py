@@ -39,5 +39,3 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 
 update_if_needed('AuroraDroid', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.adroid'))
-update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
-update_if_needed('LocalNlpBackend', fdroid_recommended_release(fdroid_main_repo, 'helium314.localbackend'))
