@@ -36,7 +36,7 @@ def update_if_needed(module: str, release: ApkRelease):
         elif version_code == release.version_code:
             print('{} up to date.'.format(module))
 
-fdroid_main_repo = 'https://www.f-droid.org/repo'
+fdroid_main_repo = 'https://cloudflare.f-droid.org/repo'
 fdroid_izzysoft_repo = 'https://apt.izzysoft.de/fdroid/repo'
 
 update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
