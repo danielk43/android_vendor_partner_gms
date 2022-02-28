@@ -11,7 +11,7 @@ Example manifest:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/partner_gms" name="danielk43/android_vendor_partner_gms" remote="github" revision="main" />
+    <project path="vendor/partner_gms" name="Exodusnick/android_vendor_partner_gms" remote="github" revision="main" />
 </manifest>
 ```
 
