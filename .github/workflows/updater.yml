@@ -1,7 +1,8 @@
 name: Updater
 on:
-  schedule:
-    - cron:  '37 13 * * *'
+  push:
+    branches-ignore:
+      - main
   workflow_dispatch:
 jobs:
   Update-Apks:
