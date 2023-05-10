@@ -1,7 +1,7 @@
 name: Updater
 on:
   schedule:
-    - cron:  '37 13 * * *'
+    - cron:  '00 8,20 * * *'
   workflow_dispatch:
 jobs:
   Update-Apks:
