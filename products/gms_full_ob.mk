@@ -1,0 +1,2 @@
+-include $(LOCAL_PATH)/gms.mk
+-include $(LOCAL_PATH)/gms_extras.mk
