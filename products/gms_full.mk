@@ -1,0 +1,2 @@
+-include $(LOCAL_PATH)/gms_fdroid.mk
+-include $(LOCAL_PATH)/gms_extras.mk
