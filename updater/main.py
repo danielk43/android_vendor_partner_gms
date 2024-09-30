@@ -38,3 +38,4 @@ def update_if_needed(module: str, release: ApkRelease):
 
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 
+update_if_needed('AuroraStore', fdroid_recommended_release(fdroid_main_repo, 'com.aurora.store'))
